@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>저장 상태 예제</title>
+  <style>
+    body { margin: 0; background: #f4f6f8; color: #14213d; font: 16px/1.5 system-ui, sans-serif; }
+    main { width: min(640px, calc(100% - 40px)); margin: 80px auto; padding: 36px; background: white; border-radius: 18px; box-shadow: 0 12px 40px #14213d14; }
+    h1 { margin: 0 0 8px; font-size: 30px; }
+    p { margin: 0 0 30px; color: #53627a; }
+    button { padding: 12px 20px; border: 0; border-radius: 9px; background: #2255cc; color: white; font: inherit; cursor: pointer; }
+    [role="status"] { display: inline-block; min-width: 100px; margin-left: 16px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>알림 설정</h1>
+    <p>저장 버튼을 누른 뒤 상태가 어떻게 표시되는지 비교합니다.</p>
+    <button type="button">저장</button>
+    <span role="status">변경 없음</span>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
